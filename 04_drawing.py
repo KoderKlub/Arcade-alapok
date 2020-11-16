@@ -8,7 +8,6 @@ class GameWindow(arcade.Window):
         self.center_window()
 
     def on_draw(self):
-        # Szín puffer (buffer) törlése
         arcade.start_render()
 
         # Circle - Kör
@@ -19,7 +18,7 @@ class GameWindow(arcade.Window):
         arcade.draw_ellipse_filled(100, 100, 50, 80, arcade.color.AO)
         arcade.draw_ellipse_outline(200, 100, 50, 80, arcade.color.YELLOW)
 
-        # Rectanlge - Téglalap
+        # Rectangle - Téglalap
         arcade.draw_rectangle_filled(300, 100, 50, 50, arcade.color.ALIZARIN_CRIMSON)
         arcade.draw_rectangle_outline(400, 100, 50, 150, arcade.color.YANKEES_BLUE, 4)
 
