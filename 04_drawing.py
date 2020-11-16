@@ -8,6 +8,7 @@ class GameWindow(arcade.Window):
         self.center_window()
 
     def on_draw(self):
+        # Szín puffer (buffer) törlése
         arcade.start_render()
 
         # Circle - Kör
